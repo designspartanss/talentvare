@@ -115,6 +115,7 @@ code {
 }
 .btn-outline-dark:hover,
 .btn-outline-dark:focus {
+    color: #fff;
     border-color: var(--bs-primary);
     background-color: var(--bs-primary);
 }

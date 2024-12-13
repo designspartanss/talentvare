@@ -12,11 +12,9 @@ import './JobList.css';
 const JobList = (props) => {
     //props passed from App component, to show featured and recommended jobs, based on prop value
     return (
-        <div className="job-listings">
-
-
+        <div className="job-listings mb-4">
             <div className="job-listings-header">
-                <h5 className="title mb-0 neueHassGroteskDisplayRoman">{props.job} Jobs</h5>
+                <h5 className="title mb-2 mb-sm-0 neueHassGroteskDisplayRoman">{props.job} Jobs</h5>
                 <a href="#" className="link">See {props.job} Jobs</a>
             </div>
             <div className="card-wrapper">

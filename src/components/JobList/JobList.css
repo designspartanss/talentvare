@@ -77,3 +77,13 @@
     margin: 0 0 10px;
   }
 }
+@media (max-width: 400px) {
+  .job-listings .job-listings-header {
+    display: block;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .job-listings .job-listings-header .link {
+    margin-left: 0;
+  }
+}
